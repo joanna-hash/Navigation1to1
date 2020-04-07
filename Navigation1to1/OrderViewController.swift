@@ -6,6 +6,8 @@
 //  Copyright © 2020 김가영. All rights reserved.
 //
 
+//Commit #2
+
 import UIKit
 
 class OrderViewController: UIViewController {
@@ -17,10 +19,10 @@ class OrderViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        if let contentString = info {
+        //if let contentString = info {
                //infoLabel.text = contentString
             infoLabel.text = info
-           }
+         //  }
     }
 
     /*
